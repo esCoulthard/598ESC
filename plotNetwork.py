@@ -5,6 +5,10 @@ import pandas as pd
 import numpy as np
 import random
 
+
+# ---------------------------
+# This just plots the network, make sure to change the edges file path to modify what network you are using. You should only need to modify the Nodes and Mask path if the filepath for those files changes.
+# ---------------------------
 def plot_weight_adjusted_networks(nodes_file, edges_file, mask_file, left_source_scale,
                                   right_source_scale, left_global_scale, right_global_scale,
                                   arrow_size, title, selfloops):

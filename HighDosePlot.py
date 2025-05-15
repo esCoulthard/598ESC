@@ -7,6 +7,8 @@ import random
 import re
 
 # ---------------------------
+# This should give you the Average Shortest Path Length, Betweenness Centrality, and Clustering Coefficient for the High dose conditions.
+# ---------------------------
 def compute_metrics(G):
     for source, target, wdata in G.edges(data=True):
         wdata["inv_weight"] = 1 / wdata["weight"]

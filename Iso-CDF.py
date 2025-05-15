@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 import random
 import re
 
+# ---------------------------
+# This computes the cumulative distribution function for the Isoflurane condition, and downloads/displays it for the in/out degrees, along with the left/right hemispheres, giving 4 outputs.
+# ---------------------------
 def compute_shuffled_degrees(csv_file, hemisphere="left", trials=1000, 
                              xlim=None, ylim=None, bin_size=10,
                              individual_files=None, individual_labels=None,

@@ -11,7 +11,7 @@ CDF Files give the cumulative distribution function for the in/out degrees for t
 The high/low dose plots will give you the BC/ASPL/CC for each conditon all on the same plot for either the high or low dose. So you will get 3 plots, one for each condition, with each plot having all 4 states for that dosage (3 low/high dose + 1 control).
 
 The plotNetwork file just gives you the network. The bottom 50% of linkweights are filtered out to aid visibility.
-It is normalized per hemisphere, so the sum of the weights in each hemisphere will add up to some value. There is a weight factor which is then applied.
+It is normalized per hemisphere, so the sum of the weights in a hemisphere will add up to some value. There is a weight factor which is then applied.
 
 Often in the code, the control case will be called control, whereas altered state will be refered to as Iso, even if the file is working with ketamine or pentobarbital.
 

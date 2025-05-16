@@ -70,7 +70,7 @@ plot_weight_adjusted_networks(
     nodes,
     edges,
     mask,
-    left_source_scale=5, right_source_scale=5,
+    left_source_scale=None, right_source_scale=None,
     left_global_scale=30, right_global_scale=30,
-    arrow_size=20, title = "Awake .", selfloops = 0 
+    arrow_size=20, title = "Awake .", selfloops = None 
 )
